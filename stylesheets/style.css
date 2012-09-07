@@ -1,0 +1,51 @@
+/*2012 - portfolio css*/
+
+body {
+  width: 100%; 
+  background: #e0b993; 
+  margin: auto; 
+  padding: auto; 
+  font-family: "Helvetica Neue", arial;
+  font-size: 14px;
+}
+
+#Wrapper {
+  width: 100%;  
+  margin: auto;
+}
+
+#header {
+  background: #f2d4b2;
+  color: #c49164;
+  min-height: 180px;
+  margin: 0;
+  padding: 0;
+}
+#header .content {
+  margin: 0 5% 0 5%;
+}
+
+#Wrapper2 {
+  background: #c49164;
+  color: #f2d4b2;
+  min-height: 520px;
+}
+#Wrapper2 .content {
+  margin: 0 5% 0 5%;
+}
+
+#contents {}
+
+#copyrights {
+  background: #300315;
+  color: #dbb38b;
+  min-height: 200px;
+}
+#copyrights .content {
+  margin: 0 5% 0 5%;
+  min-height: 180px;
+}
+.footer-dark {
+ background: #21020e;
+}
+
