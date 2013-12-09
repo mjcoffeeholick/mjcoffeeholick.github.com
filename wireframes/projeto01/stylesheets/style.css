@@ -81,8 +81,7 @@ h4 {
   text-align: center;
   margin: 10px 0 10px 0;
 }
-#header .content .banner {
-  width: 76%; 
+.banner { 
   float: right;
   background: #f4f4f4; 
   border: 1px solid #333; 
@@ -91,6 +90,16 @@ h4 {
   line-height: 90px;
   text-align: center;
   margin: 43px 0 0 0; 
+}
+.bannerfooter {
+  float: right;
+  background: #fff; 
+  border: 1px solid #333; 
+  height: 90px;
+  width: 728px;
+  line-height: 90px;
+  text-align: center;
+  margin: 10px 0; 
 }
 #header .content .social {
   width: 24%; 
@@ -118,7 +127,7 @@ h4 {
 }
 
 #content2 {
-  margin: 0 0 0 5%;
+  margin: 1% 0 0 5%;
 } 
 
 #contents-item {
@@ -211,7 +220,14 @@ h4 {
 #categorias {padding: 5px 0;}
 #assuntos {padding: 5px 0;}
 #galerias {padding: 5px 0;}
+#arquivo {margin-bottom: 10px;}
 #footerpost {border-top: 1px solid #999; border-bottom: 1px solid #333;}
 #post {padding-bottom: 10px;}
 #img-destaque {width: 100%; height: 150px; background: #fff; border: 1px solid #333; text-align: center; line-height: 150px;}
 #galeria-img img {width: 45px;}
+#relacionados {margin: 5% 0 0 5%;}
+#relacionados-conteudo {}
+#relacionados-conteudo2 {background: #fff;}
+.relacionados-foto {float: left; display: inline; width: 163px;}
+.relacionados-texto {border-bottom: 1px dotted #fff; padding:0 5px 0 173px; height: 131px; }
+#comentarios {padding: 5% 0 0 5%; text-align: center;}
