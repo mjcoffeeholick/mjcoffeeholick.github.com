@@ -15,7 +15,7 @@ body {
 .clear {clear: both;}
 .cinza {background: #eee;}
 .branco {background: #fff; width: 95%;}
-#limit {min-width: 500px; margin: auto;}
+#limit {min-width: 900px; margin: auto;}
 
 /*---TEXT AND TITLES---*/
 h1 {
