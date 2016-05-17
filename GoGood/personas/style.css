@@ -99,20 +99,20 @@ section {}
 }
 
 /* GRAFICO */
-.devices { width: 250px;}
-.devices_esq { float: left; width: 50px;}
-.devices_dir { float: right; width: 200px;}
+.devices { width: 300px;}
+.devices_esq { float: left; width: 60px; text-align: center;}
+.devices_dir { float: right; width: 210px;}
 .devices_100 { 
   background: #CFF09E;  
   width: 100%; 
-  color: #fff; 
+  color: #f4f4f4; 
   text-align: center;
-  font-size: 1.5em; 
+  font-size: 1em; 
   border: 1px solid #CFF09E;
 }
-.devices_70 { background: #0B486B;  width: 70%;}
-.devices_20 { background: #3B8686;  width: 20%;}
-.devices_10 { background: #79BD9A;  width: 10%;}
+.devices_70 { background: #0B486B;  width: 70%; padding: 10px;}
+.devices_20 { background: #3B8686;  width: 20%; padding: 10px;}
+.devices_10 { background: #79BD9A;  width: 10%; padding: 10px;}
 .devices_clear { clear: both;}
 
 /* COLORS */
