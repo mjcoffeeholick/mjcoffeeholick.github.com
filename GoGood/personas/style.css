@@ -97,18 +97,6 @@ section {}
   padding: 1% 0 1% 1.6%;
   margin: 0px;
 }
-/* RATING */
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.5em;
-  font-size: 1.5em;
-  color: #eee;
-}
 
 /* GRAFICO */
 .devices { width: 250px;}
