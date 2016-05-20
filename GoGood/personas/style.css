@@ -110,9 +110,11 @@ section {}
   font-size: 1em; 
   border: 1px solid #CFF09E;
 }
-.devices_70 { background: #0B486B;  width: 70%; padding: 10px;}
-.devices_20 { background: #3B8686;  width: 20%; padding: 10px;}
-.devices_10 { background: #79BD9A;  width: 10%; padding: 10px;}
+.devices_70 { background: #27245e;  width: 70%; padding: 10px;}
+.devices_60 { background: #27245e;  width: 60%; padding: 10px;}
+.devices_20 { background: #27245e;  width: 20%; padding: 10px;}
+.devices_30 { background: #27245e;  width: 30%; padding: 10px;}
+.devices_10 { background: #27245e;  width: 10%; padding: 10px;}
 .devices_clear { clear: both;}
 
 /* COLORS */
@@ -123,12 +125,16 @@ section {}
 .blue {
   color: #d1eef8;
 }
+.deepblue {
+  color: #27245e;
+}
 .one { color: #F9D423;}
 .two { color: #EDE574;}
 .three { color: #E1F5C4;}
 .one_devices { color: #0B486B;}
 .two_devices { color: #3B8686;}
 .three_devices { color: #79BD9A;}
+.color { color: #F9D423;}
 
 /*  SECTIONS  */
 .section {
