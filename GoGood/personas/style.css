@@ -64,6 +64,7 @@ section {}
 }
 .sobre { background: transparent; padding: 2%; color: #27245e; }
 .bio_sobre { background: #d1eef8; border-radius: 10px; padding: 1% 2%; }
+.bio_sobre a { color: #27245e; }
 .conteudo_rodape {
   background: #333; 
   color: #fff;
