@@ -29,6 +29,102 @@ section {}
   margin: 1%;
   padding: 0;
 }
+.wireframe {
+  border: 2px solid #eee;
+  margin: 1%;
+  padding: 0;
+}
+.logo {
+  background-color: #f1f1f1;
+  height: 50px;
+  display: block;
+  text-align: left;
+}
+.imagem-destaque {
+  padding: 5% 0 0 0;
+  margin: 0;
+  background: #ccc;
+  height: 300px;
+  line-height: 60px;
+}
+.menu-topo-lista {
+  text-align: right;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+.menu-topo-lista ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.menu-topo-lista ul li {
+  display: inline-block;
+}
+.menu-topo-lista ul li:last-child {
+  border-right: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-topo-lista ul li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0;
+}
+.menu-topo-lista ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.menu-topo-lista ul li a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+.menu-perfil-lista {
+  text-align: center;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+.menu-perfil-lista ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.menu-perfil-lista ul li {
+  display: inline-block;
+}
+.menu-perfil-lista ul li:last-child {
+  border-right: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-perfil-lista ul li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0;
+}
+.menu-perfil-lista ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.menu-perfil-lista ul li a:active {
+  background-color: #4CAF50;
+  color: white;
+}
 .conteudo {
   border-top: 2px solid #333;
   padding: 4%;
@@ -120,15 +216,9 @@ section {}
 
 /* COLORS */
 
-.silver {
-  color: #666;
-}
-.blue {
-  color: #d1eef8;
-}
-.deepblue {
-  color: #27245e;
-}
+.silver { color: #666; }
+.blue { color: #d1eef8; }
+.deepblue { color: #27245e; }
 .one { color: #F9D423;}
 .two { color: #EDE574;}
 .three { color: #E1F5C4;}
@@ -165,6 +255,14 @@ section {}
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 50%;
+}
+
 /*  GRID OF THREE  */
 .span_3_of_3 { width: 100%; }
 .span_2_of_3 { width: 66.13%; }
@@ -178,4 +276,7 @@ section {}
   .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
   .span_1_of_3_grey { width: 100%; background: #333; color: #fff; }
   .span_1_of_3_blue { width: 100%; background: #d1eef8; color: #fff; }
+  .span_2_of_2, .span_1_of_2 { width: 100%; }
+  .menu-topo-lista { text-align: center; display: inline; margin: 0; padding: 0; }
+  .logo { background-color: #f1f1f1; height: 50px; display: block; text-align: center; }
 }

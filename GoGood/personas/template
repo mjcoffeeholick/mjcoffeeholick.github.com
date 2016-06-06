@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wireframes - GO GOOD</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <section>
+      <div class="titulo"><h1><strong>GO GOOD</strong> - Feed</h1></div>
+      
+      
+    </section>  
+    <footer>
+      <div class="conteudo_rodape">
+        <p>Estudos de personas feito por @mjcoffeeholick para Go Good • 2016</p>
+      </div>
+    </footer>
+  </body>
+  </html>
+<!-- end of file -->
