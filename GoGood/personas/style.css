@@ -25,7 +25,7 @@ section {}
   font-size: 2.5em;
 }
 .persona {
-  border: 2px solid #d1eef8;
+  border: 2px solid #eee;
   margin: 1%;
   padding: 0;
 }
@@ -158,8 +158,8 @@ section {}
 #bio {
   list-style: none;
 }
-.sobre { background: transparent; padding: 2%; color: #27245e; }
-.bio_sobre { background: #d1eef8; border-radius: 10px; padding: 1% 2%; }
+.sobre { background: transparent; padding: 2%; color: #333; }
+.bio_sobre { background: #94ebfe; border-radius: 10px; padding: 1% 2%; }
 .bio_sobre a { color: #27245e; }
 .conteudo_rodape {
   background: #333; 
@@ -173,19 +173,19 @@ section {}
   margin: 0px;
 }
 #container02 {
-  background: #27245e; 
+  background: #25163d; 
   color: #fff; 
   padding: 1% 0 1% 1.6%;
   margin: 0px;
 }
 #container03 {
-  background: #f4f4f4; 
+  background: #eee; 
   color: #27245e; 
   padding: 1% 0 1% 1.6%;
   margin: 0px;
 }
 #container04 {
-  background: #27245e; 
+  background: #25163d; 
   color: #fff; 
   padding: 1% 0 1% 1.6%;
   margin: 0px;
@@ -207,25 +207,26 @@ section {}
   font-size: 1em; 
   border: 1px solid #CFF09E;
 }
-.devices_70 { background: #27245e;  width: 70%; padding: 10px;}
-.devices_60 { background: #27245e;  width: 60%; padding: 10px;}
-.devices_20 { background: #27245e;  width: 20%; padding: 10px;}
-.devices_30 { background: #27245e;  width: 30%; padding: 10px;}
-.devices_10 { background: #27245e;  width: 10%; padding: 10px;}
+.devices_70 { background: #25163d;  width: 70%; padding: 10px;}
+.devices_60 { background: #25163d;  width: 60%; padding: 10px;}
+.devices_20 { background: #25163d;  width: 20%; padding: 10px;}
+.devices_30 { background: #25163d;  width: 30%; padding: 10px;}
+.devices_10 { background: #25163d;  width: 10%; padding: 10px;}
 .devices_clear { clear: both;}
 
 /* COLORS */
 
 .silver { color: #666; }
-.blue { color: #d1eef8; }
-.deepblue { color: #27245e; }
-.one { color: #F9D423;}
-.two { color: #EDE574;}
-.three { color: #E1F5C4;}
+.blue { color: #53c8e1; }
+.deepblue { color: #25163d; }
+.one { color: #facb1b;}
+.two { color: #e04f5f;}
+.three { color: #53e1c8;}
 .one_devices { color: #0B486B;}
 .two_devices { color: #3B8686;}
 .three_devices { color: #79BD9A;}
-.color { color: #F9D423;}
+.color { color: #facb1b;}
+.gogood_blue { color:#53c8e1;}
 
 /*  SECTIONS  */
 .section {
