@@ -125,48 +125,6 @@ section {}
   background-color: #4CAF50;
   color: white;
 }
-.menu-rede-lista {
-  text-align: left;
-  display: inline;
-  margin: 0;
-  padding: 1%;
-  background-color: transparent;
-}
-.menu-rede-lista ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-.menu-rede-lista ul li {
-  display: inline-block;
-}
-.menu-rede-lista ul li:last-child {
-  border-right: none;
-  margin: 0;
-  padding: 0;
-}
-.menu-rede-lista ul li a {
-  display: block;
-  border-bottom: 3px solid #fff;
-  color: #000;
-  text-decoration: none;
-  text-align: center;
-  padding: 4%;
-  margin: 4%;
-}
-.menu-rede-lista ul li a:hover {
-  border-bottom: 3px solid #fff;
-  background: #333;
-  color: blue;
-  padding: 4%;
-  margin: 4%;
-}
-
-.menu-perfil-lista ul li a:active {
-  background-color: #4CAF50;
-  color: white;
-}
 .conteudo {
   border-top: 2px solid #333;
   padding: 4%;
@@ -271,12 +229,17 @@ section {}
 .gogood_blue { color:#53c8e1;}
 
 /* WIREFRAME */
-
+.titulos-box {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
 .rede-destaque {
   border-bottom: 1px solid #53c8e1;
   padding: 1%; 
+  text-align: center;
 }
-
 .rede-destaque h2 {
   text-align: left;
   border-bottom: 1px solid #53c8e1;
@@ -288,10 +251,19 @@ section {}
 .rede-destaque h3 {
   text-align: left;
 }
+.rede-destaque h4 {
+  text-align: center;
+}
 
+.box-rede-movimentos {
+   background: #333;
+   border-top: 3px solid #53c8e1;
+   padding: 1%;
+}
 .rede-movimentos {
   background: #537ee1;
-  width: 15%;
+  width: 100
+  %;
 }
 .rede-movimentos-conteudo {
   padding: 1%;
@@ -299,9 +271,54 @@ section {}
   color: #f4f4f4;
   font-size: 0.8em;
 }
-.rede-movimentos-conteudo h4 {
-
+.rede-movimentos-conteudo a {
+  color: #f4f4f4;
 }
+.rede-movimentos-conteudo a:hover {
+  color: #facb1b;
+}
+.menu-rede-lista {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.menu-rede-lista ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.menu-rede-lista ul li {
+  display: inline-block;
+  width: 25%;
+}
+.menu-rede-lista ul li:last-child {
+  border-right: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-rede-lista ul li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  text-align: left;
+  padding: 2% 1% 1% 2%;
+  margin: 0;
+  font-weight: bold;
+}
+.menu-rede-lista ul li a:hover {
+  background: transparent;
+  color: #53c8e1;
+  padding: 2% 1% 1% 2%;
+  margin: 0;
+}
+.active {
+  color: #53c8e1;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+} 
 
 /*  SECTIONS  */
 .section {
@@ -331,13 +348,30 @@ section {}
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
+/*  SECTIONS  */
+.sectionbox {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.colbox {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.colbox:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.groupbox:before,
+.groupbox:after { content:""; display:table; }
+.groupbox:after { clear:both;}
+.groupbox { zoom:1; /* For IE 6/7 */ }
+
 /*  GRID OF TWO  */
-.span_2_of_2 {
-  width: 100%;
-}
-.span_1_of_2 {
-  width: 50%;
-}
+.span_2_of_2 { width: 100%; }
+.span_1_of_2 { width: 50%; }
 
 /*  GRID OF THREE  */
 .span_3_of_3 { width: 100%; }
@@ -345,6 +379,13 @@ section {}
 .span_1_of_3 { width: 33.26%; }
 .span_1_of_3_grey { width: 33.26%; background: #333; color: #fff; }
 .span_1_of_3_blue { width: 33.26%; background: #d1eef8; color: #fff; }
+
+.span_6_of_6 { width: 100%; }
+.span_5_of_6 { width: 83.06%; }
+.span_4_of_6 { width: 66.13%; }
+.span_3_of_6 { width: 49.2%; }
+.span_2_of_6 { width: 32.26%; }
+.span_1_of_6 { width: 15.33%; }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
@@ -355,4 +396,7 @@ section {}
   .span_2_of_2, .span_1_of_2 { width: 100%; }
   .menu-topo-lista { text-align: center; display: inline; margin: 0; padding: 0; }
   .logo { background-color: #f1f1f1; height: 50px; display: block; text-align: center; }
+  .menu-rede-lista ul li { display: inline-block; width: 25%; margin-right: 8%; }
+  .colbox {  margin: 1% 0 1% 0%; }
+  .span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
 }
