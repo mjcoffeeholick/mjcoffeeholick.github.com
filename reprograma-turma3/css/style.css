@@ -15,7 +15,7 @@ h1, h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h1 {
-    color: #DD5555;
+    color: #ddc7ed;
     font-size: 2em;
 }
 h2 {
@@ -34,21 +34,21 @@ a {
 }
 
 h3 a {
-    -webkit-box-shadow: inset 0 -4px 0 #93e3e5;
-    -moz-box-shadow: inset 0 -4px 0 #93e3e5;
-    box-shadow: inset 0 -4px 0 #93e3e5;
+    -webkit-box-shadow: inset 0 -4px 0 #ddc7ed;
+    -moz-box-shadow: inset 0 -4px 0 #ddc7ed;
+    box-shadow: inset 0 -4px 0 #ddc7ed;
     font-weight: bold;
 }
 h3 a:hover {
-    -webkit-box-shadow: inset 0 -4px 0 #93e3e5;
-    -moz-box-shadow: inset 0 -4px 0 #93e3e5;
-    box-shadow: inset 0 -4px 0 #93e3e5;
+    -webkit-box-shadow: inset 0 -4px 0 #ddc7ed;
+    -moz-box-shadow: inset 0 -4px 0 #ddc7ed;
+    box-shadow: inset 0 -4px 0 #ddc7ed;
     font-weight: bold;
 }
 h3 a:visited {
-    -webkit-box-shadow: inset 0 -4px 0 #238282;
-    -moz-box-shadow: inset 0 -4px 0 #238282;
-    box-shadow: inset 0 -4px 0 #238282;
+    -webkit-box-shadow: inset 0 -4px 0 #f5f8fa;
+    -moz-box-shadow: inset 0 -4px 0 #f5f8fa;
+    box-shadow: inset 0 -4px 0 #f5f8fa;
     font-weight: bold;
 }
 h4 a {
@@ -70,13 +70,25 @@ ul, menu, dir {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
 }
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+
+.text-right {text-align: right;}
+.text-left {text-align: left;}
 /* IDs */
+#img-logo {
+    width: 100px;
+    height: 100px;
+}
 #img-profile {
     width: 100px;
     height: 100px;
-    border: 3px solid #93e3e5;
 }
 #logo-highlight {
+    width: 50%;
+}
+#profile-highlight {
     width: 50%;
 }
 #img-2017 {
@@ -106,7 +118,7 @@ ul, menu, dir {
 .links-ico a:hover {
     width: 100%; 
     padding-bottom: 20px;
-    color: #DD5555;
+    color: #7d2eaa;
     text-decoration: none;
 }
 .links-ico-item {
@@ -127,7 +139,57 @@ ul, menu, dir {
     border-radius: 4px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
+.card-footer {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.card-footer p a {
+    -webkit-box-shadow: inset 0 -4px 0 #ddc7ed;
+    -moz-box-shadow: inset 0 -4px 0 #ddc7ed;
+    box-shadow: inset 0 -4px 0 #ddc7ed;
+    font-weight: bold;
+}
+.card-footer p a:hover {
+    -webkit-box-shadow: inset 0 -4px 0 #ddc7ed;
+    -moz-box-shadow: inset 0 -4px 0 #ddc7ed;
+    box-shadow: inset 0 -4px 0 #ddc7ed;
+    font-weight: bold;
+}
+.card-footer p a:visited {
+    -webkit-box-shadow: inset 0 -4px 0 #f5f8fa;
+    -moz-box-shadow: inset 0 -4px 0 #f5f8fa;
+    box-shadow: inset 0 -4px 0 #f5f8fa;
+    font-weight: bold;
+}
+.card-purple {
+    background: #89359f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.card-bio {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.card-bio .list-inline ul li {
+    padding: 0;
+    margin: 0;
+}
+.card-bio .list-inline h2 {
+    padding: 0;
+    margin: 0;
+}
 .img-circle {
+    border-radius: 50%;
+}
+.img-circle-profile {
     border-radius: 50%;
 }
 .txt-top {
@@ -359,9 +421,8 @@ ul.list-inline-event a:hover {
 
 .content-item {
 	float: right;
-	width: 49%;
+	width: 100%;
 	text-align: left;
-	margin-left: 2%;
 }
 .content-item h3 {
 	padding: 0px;
@@ -377,8 +438,11 @@ ul.list-inline-event a:hover {
 .gray {
 	color: #333;
 }
+.white {
+    color: #fff;
+}
 .especial-pink {
-    color: #DD5555;
+    color: #7d2eaa;
 }
 
 @media only screen and (min-width: 480px) { 
